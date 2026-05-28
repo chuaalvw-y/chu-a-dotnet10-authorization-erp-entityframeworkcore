@@ -1,0 +1,33 @@
+<!--
+Copyright (c) 2026 Alvin Wilsen Chan Chua
+GitHub: chuaalvw-y
+Licensed under the Alvin Wilsen Chan Chua Proprietary Use-Only License.
+See LICENSE.txt in the project root for full license information.
+-->
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>EF Core persistence for ChuA ERP authorization against ChuA.ERP.Database.</Description>
+    <PackageId>ChuA.Authorization.Erp.EntityFrameworkCore</PackageId>
+    <AssemblyName>ChuA.Authorization.Erp.EntityFrameworkCore</AssemblyName>
+    <RootNamespace>ChuA.Authorization.Erp.EntityFrameworkCore</RootNamespace>
+    <Version>10.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChuA.Authorization.Erp\ChuA.Authorization.Erp.csproj" />
+    <ProjectReference Include="C:\Users\Public\Public Development\GitHubERP\dotNET\chu-a-ef-database\ChuA.ERP.Database\ChuA.ERP.Database.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE.txt" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+</Project>

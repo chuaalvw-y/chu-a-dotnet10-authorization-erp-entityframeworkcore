@@ -1,0 +1,12 @@
+<!--
+Copyright (c) 2026 Alvin Wilsen Chan Chua
+GitHub: chuaalvw-y
+Licensed under the Alvin Wilsen Chan Chua Proprietary Use-Only License.
+See LICENSE.txt in the project root for full license information.
+-->
+
+<Solution>
+  <Project Path="src/ChuA.Authorization.Erp/ChuA.Authorization.Erp.csproj" />
+  <Project Path="src/ChuA.Authorization.Erp.EntityFrameworkCore/ChuA.Authorization.Erp.EntityFrameworkCore.csproj" />
+  <Project Path="tests/ChuA.Authorization.Erp.EntityFrameworkCore.Tests/ChuA.Authorization.Erp.EntityFrameworkCore.Tests.csproj" />
+</Solution>

@@ -1,0 +1,22 @@
+<!--
+Copyright (c) 2026 Alvin Wilsen Chan Chua
+GitHub: chuaalvw-y
+Licensed under the Alvin Wilsen Chan Chua Proprietary Use-Only License.
+See LICENSE.txt in the project root for full license information.
+-->
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Provider-neutral ChuA ERP authorization abstractions.</Description>
+    <PackageId>ChuA.Authorization.Erp</PackageId>
+    <AssemblyName>ChuA.Authorization.Erp</AssemblyName>
+    <RootNamespace>ChuA.Authorization.Erp</RootNamespace>
+    <Version>10.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE.txt" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+</Project>
